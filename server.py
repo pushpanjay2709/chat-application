@@ -23,7 +23,7 @@ from tkinter import ttk
 ######## host and port
 HOST = socket.gethostbyname(socket.gethostname())
 print(HOST)
-# HOST = "172.16.176.1"
+HOST = "172.16.176.1"
 PORT = 1234
 
 sqlite3.connect('1.db')
